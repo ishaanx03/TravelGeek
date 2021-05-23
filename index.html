@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelGeek</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    
+    <!-- font css file link -->
+    <link rel="stylesheet" href="css//style.css" />
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+<nav class="navbar">
+    <ul>
+        <li style="--i:1;"><a href="#home">home</a></li>
+        <li style="--i:2;"><a href="#feature">feature</a></li>
+        <li style="--i:3;"><a href="#about">about</a></li>
+        <li style="--i:4;"><a href="#gallery">gallery</a></li>
+        <li style="--i:5;"><a href="#review">review</a></li>
+        <li style="--i:6;"><a href="#contact">contact</a></li>
+    </ul>
+</nav>
+
+<div class="menu"><i class="fas fa-bars"></i></div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+<div class="video-container">
+    <video src="images/video1.mp4" muted loop autoplay></video>
+</div>
+
+<div class="content">
+
+    <h3>TravelGeek</h3>
+    <h1>"its time to travel"</h1>
+
+    <div class="form-container">
+
+        <form action="plan.php" method="post">
+
+            <h3>customized plan</h3>
+
+            <span>location</span>
+            <input type="text" placeholder="place you want to visit" name="location">
+
+            <span>travellers</span>
+            <input type="number" placeholder="number of guests" name="guests">
+
+            <span>arrival</span>
+            <input type="date" name="arrival">
+
+            <span>departure</span>
+            <input type="date" name="departure">
+            
+	    <span>mobile</span>
+            <input type="text" placeholder="enter your mobile number" name="mobile">
+
+            <input class="btn" type="submit" value="submit">
+
+        </form>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- feature section starts  -->
+
+<section class="feature" id="feature">
+
+<h1 class="heading">popular places</h1>
+<h3 class="title">see the most featured places</h3>
+
+<div class="card-container">
+
+    <div class="card">
+        <img src="images/s1.jpg" alt="">
+        <div class="info">
+            <h3>singapore </h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>explore the entire city of lion, also aboard for a trip to chek java and feel the rural parts of the tiny country </p>
+            <a href="singapore.html"><button class="btn">visit now!</button></a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="images/p2.jpg" alt="">
+        <div class="info">
+            <h3>norway </h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>experience the northern lights like never before, drive through the scenic altantic ocean road, pass over the arctic circle </p>
+            <a href="#"><button class="btn">visit now!</button></a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="images/p3.jpg" alt="">
+        <div class="info">
+            <h3>finland </h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <p>go for husky ride, enjoy the snow of lapland, experience the vibes of santa claus village</p>
+            <a href="#"><button class="btn">visit now!</button></a>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+
+<!-- feature section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+<h1 class="heading">about us</h1>
+<h3 class="title">explore the world with us</h3>
+
+<div class="row">
+
+    <div class="image">
+        <img src="images/aboutus.svg" alt="">
+    </div>
+
+    <div class="content">
+        <h3>why choose us?</h3>
+        <p>we are successfully conducting 12 -15 montly international tour. we have been awarded best tour service provider by curlytails yearly award 2021, we were best international tours operator by world travel awards 2020.</p>
+    </div>
+
+</div>
+
+<div class="box-container">
+
+    <div class="box">
+        <i class="fas fa-map"></i>
+        <h3>travel guide</h3>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-users"></i>
+        <h3>24 x 7 service</h3>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-hotel"></i>
+        <h3>hotel booking</h3>
+    </div>
+
+</div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+<h1 class="heading">our gallery</h1>
+<h3 class="title">explore the most visited places</h3>
+
+<div class="box-container">
+
+    <div class="box">
+        <div class="image">
+            <img src="images/img1.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>croatia </h3>
+            <p>enroute on a road trip of croatia, don't miss on any of the beaches, take the pretty drive from Split to Dubrovnik</p>
+            <a href="#"><button class="btn">explore!</button></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/img2.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>new york </h3>
+            <p>weeks are less to explore such city, experience hussle of nyc downtown and calmness of national park, visit iconic iron bridges, visit the time square at midnight 12  </p>
+            <a href="#"><button class="btn">explore!</button></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/img3.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>switzerland </h3>
+            <p>the alps!! no words to describe, aboard the golden pass train from Lucerne toall the way Montreux you'll see the Brünig Pass, the lakes of the Bernese Oberland, the Simmen valley, upper class Gstaad and Lake Geneva</p>
+            <a href="#"><button class="btn">explore!</button></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/img4.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>new zealand </h3>
+            <p>new zealand is incomplete without driving thorugh the mountains of north and coastal route of east and south, check out beatifully made lighthouses along the coastal regions</p>
+            <a href="#"><button class="btn">explore!</button></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/p4.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>laos  </h3>
+            <p>laos slowly gaining popularity amount the youths involved in trekking and mountaining, swallow waterfalls are safest to swim in </p>
+            <a href="#"><button class="btn">explore!</button></a>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<!-- gallery section ends -->
+
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+<h1 class="heading">customers review</h1>
+<h3 class="title">what peoples says about us</h3>
+
+
+<div class="box-container">
+
+    <div class="box">
+        <i class="fas fa-quote-left"></i>
+        <p>best part of travelgeek is they not only manage hotel and flight tickets but also include local activities in their tour.</p>
+        <div class="user">
+            <img src="images/pp1.jpeg" alt="">
+            <div class="info">
+                <h3>Param Jani</h3>
+                <span>jan 5, 2018</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-quote-left"></i>
+        <p>I like all-inclusive package which let's you free from the hassle of currency exchange, local scam, frude, etc. </p>
+        <div class="user">
+            <img src="images/pp2.jpeg" alt="">
+            <div class="info">
+                <h3>Ishaan Padmashali</h3>
+                <span>may 25, 2019</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-quote-left"></i>
+        <p>I one of the oldest customers of travelgeek. each and every trip of mine with my family is memorable. </p>
+        <div class="user">
+            <img src="images/pp3.jpeg" alt="">
+            <div class="info">
+                <h3>Alap Pandya</h3>
+                <span>oct 5, 2019</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- newsletter section stars  -->
+
+<section class="newsletter">
+
+<div class="box">
+    <h1>sign up for discount</h1>
+    <p>get in touch with us and get latest updates</p>
+
+    <form action="email.php" method="post">
+        <input type="email" placeholder="enter your email" name="mail">
+        <input type="submit" class="btn" value="send">
+    </form>
+</div>
+
+</section>
+
+<!-- newsletter section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+<h1 class="heading">contact us</h1>
+
+<form action="contact.php" method="post">
+
+<div class="inputBox">
+    <input type="text" placeholder="first name" name="firstname">
+    <input type="text" placeholder="last name" name="lastname">
+</div>
+
+<div class="inputBox">
+    <input type="email" placeholder="email" name="email">
+    <input type="text" placeholder="phone" name="phone">
+</div>
+
+
+<input type="submit" value="send" class="btn">
+
+
+</form>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+<div class="box">
+    <h3>explore.</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus reprehenderit quo ex rem repellendus voluptatem odit repellat itaque dignissimos ad?</p>
+</div>
+
+<div class="box">
+    <h3>share</h3>
+    <a href="#">facebook</a>
+    <a href="#">twitter</a>
+    <a href="#">instagram</a>
+</div>
+
+<div class="box">
+    <h3>links</h3>
+    <a href="#">home</a>
+    <a href="#">feature</a>
+    <a href="#">about</a>
+    <a href="#">gallery</a>
+    <a href="#">review</a>
+    <a href="#">contact</a>
+</div>
+
+<h1 class="credit">created by <span>19DCS042,19DCS069,19DCS073</span> | all rights reserved. </h1>
+
+</section>
+
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="javascript/js.js"></script>
+
+</body>
+</html>
